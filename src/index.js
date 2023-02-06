@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Calc_Body from './Component/Calc_Body';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='mydiv'>
+      <br/>
+    <Calc_Body/>
+    </div>
   </React.StrictMode>
 );
 
