@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Input, Mytest} from "./Input";
+import {Input} from "./Input";
 import Calc_Body from "./Calc_Body";
 
 export const Button=(props)=>{
@@ -9,14 +9,11 @@ export const Button=(props)=>{
     let counter=0;
     
     const btn_click=(e)=>{
-      // if(props.text=="+")
-      // {
-      //   num1=document.getElementById("mynum").value
-      // }
-      // let res=document.getElementById("mynum").value;
-      // document.getElementById("mynum").value =res+props.text;
+      
       setInput_text(e.target.value);
-      //خیلی خوب بود از اینجا متن را تحت کنترل  میگرفتیم
+     //کد های مربوط به، به روز رسانی متن در تکست باکس را اینجا نوشتم ولی کار نمیکرد
+      
+     
     }
 
     return(
